@@ -102,8 +102,12 @@ void printBST(BST t){
     if (t == NULL) {
         return;
     }
+
     printBST(t->left);
-    printf("%d ",t->value);
+    printf("%s\n", " /\\");
+    printf("%s\n", "2  3");
+    exit(0);
+    //printf("%100.d ",t->value);
     printBST(t->right);
 }
 
